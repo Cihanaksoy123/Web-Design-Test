@@ -1,0 +1,23 @@
+.iconiclink{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    background-color: red;
+    float:left;
+    height: 95px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    margin-left: 10px;
+    .iconiclink-content{
+        flex:1;
+    }
+    b{
+        display: block;
+       }
+}
+.iconiclink:hover{
+    cursor: pointer;
+}

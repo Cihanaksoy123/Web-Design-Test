@@ -1,0 +1,77 @@
+
+@import '../public/Content/styles/colors.scss';
+@import '../public/Content/styles/fontsizes.scss';
+.App {
+}
+.main-container{
+  margin: 40px auto;
+  padding: 0;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: white;
+  // height: calc(100vh);
+  color:$fontmaincolor;
+  font-size: $mainsize;
+  .main-container-row{
+    margin:0px!important;
+    padding: 0px!important;
+  }
+  .row{
+    height: 100%;
+    padding: 5px;
+    margin: 15px 5px;
+  }
+  .customblock{
+    padding: 0;
+  }
+  .title{
+    color:$fonttitlecolor;
+    font-size: $titlesize;
+  }
+  .button{
+    border:none;
+    border-radius: 30px;
+    padding:5px 10px;
+    &:focus{
+        outline: none;
+    }
+  }
+  
+  .button-themedark{
+    background-color: $btnmaincolor;;
+    color:white;
+  }
+  .button-themelight{
+    background-color: white;
+    color:black;
+    border:1px solid #c6c7cb;
+    i{
+      color:#909292;
+    }
+  }
+  .button-direction{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 60px;
+  }
+  .button-selection{
+    display: inline-flex;
+    justify-content: space-between;
+  }
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a:hover{
+  cursor: pointer;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

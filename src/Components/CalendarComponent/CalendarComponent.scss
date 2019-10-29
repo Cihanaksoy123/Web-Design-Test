@@ -1,0 +1,37 @@
+@import '../../../public/Content/styles/colors.scss' ;
+.calendarcontainer{
+    border-top: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+    .timeline{
+    display: flex;
+    flex-direction: row;
+    }
+    .timeline-item{
+        flex:1;
+    }
+    b{
+        display: block;
+        text-align: center;
+        padding: 1px 0;
+    }
+    .active-date{
+        font-weight: bolder;
+        color:blue;
+    }
+    .calender-buttoncontainer{
+        display: flex;
+        justify-content: flex-end;
+        button{
+            flex:1;
+        }
+    }
+    
+}
+.rightalign{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        flex:1;
+    }
+}
+

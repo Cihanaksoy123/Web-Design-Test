@@ -1,0 +1,21 @@
+.page-container{
+    height: 100%;
+    .progressbarcontainer{
+        padding: 15px 0;
+        .progressbarcontainer-list,.progress{
+            margin: 10px auto;
+        }
+        .progress{
+            height: 0.5rem;
+        }
+        .progressbarcontainer-list{
+            ul{
+                li{
+                    float:left;
+                    padding: 2px;
+                }
+            }
+        }
+
+    }
+}

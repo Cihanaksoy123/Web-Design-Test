@@ -1,0 +1,37 @@
+@import '../../../public/Content/styles/colors.scss';
+
+.customcard {
+  background-color: #f5f1f1;
+  border-radius: 30px;
+  padding: 5px;
+  .customcard-header,
+  .customcard-content,
+  .customcard-right,
+  .customcard-footer
+   {
+    padding: 5px 0;
+  }
+  .customcard-header{
+    color: $fonttitlecolor;
+  }
+  .customcard-right, .customcard-left{
+    height: 100%;
+  }
+  .customcard-right{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .overflow-image {
+    height: 180px;
+    width: 85px;
+    position: absolute;
+    top: -74px;
+  }
+}
+.customcard-theme-dark{
+  background-color: #25262a!important;
+  color:white!important;
+  .customcard-header{
+    color: white;
+  }
+}

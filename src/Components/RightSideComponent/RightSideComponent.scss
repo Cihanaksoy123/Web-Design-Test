@@ -1,0 +1,42 @@
+
+@import '../../../public/Content/styles/colors.scss' ;
+.rightside{
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+        .row{
+            padding-right: 0;
+            padding-left: 0;
+            margin: 15px 0;
+        }
+        .col{
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+   .poster{
+    height: 345px;
+    position: relative;
+    background-color: #fff2dd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    img{
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        width: 75%;
+        height: 60%;
+        margin: -15% 0 0 -25%;
+    }
+   }
+   .imageprofile{
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+   }
+   .customcard{
+       background-color: transparent;
+       border-radius: unset;
+       border-top:1px solid $border-lightcolor;
+   }
+}

@@ -1,0 +1,27 @@
+
+$padding:30px;
+$input-color:#f5f1f1;
+.searchbar{
+    padding: 0;
+    position:relative;
+    i{
+        position: absolute;
+        top: calc(50% - 6px);
+        left:$padding;
+    }
+    input{
+        border:none;
+        border-radius: 20px;
+        background-color: $input-color;
+        display: block;
+        width: 100%;
+        padding: $padding/3 $padding*2 ;
+        color:#9c9da5;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            color:#9c9da5;
+        }
+    }
+}
